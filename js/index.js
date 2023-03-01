@@ -1,12 +1,6 @@
-// Sample code from homework
-/* console.log("Your index.js file is loaded correctly!"); */
+console.log("Your index.js file is loaded correctly!");
 
-// Sample code from homework
-/* $("#myID").on("click", function(){
-    console.log("You clicked on #myID");
-}); */
-
-const button = document.querySelector("button[type='button']");
+const button = document.querySelector("button");
 button.addEventListener("click", function() {
-    window.alert("Coming soon!");
+  window.alert("Coming soon!");
 });
