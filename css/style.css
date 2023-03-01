@@ -1,0 +1,140 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    
+    /* Remove later */
+    /* background-color: #ff00ff; */
+  }
+  
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+  }
+  
+nav {
+    width: 73%;
+    padding: 1%;
+  }
+  
+ul {
+    width: 50%;
+    margin-left: auto;
+    
+    /* Remove later */
+    /* background-color: #0000ff; */
+    
+    list-style-type: none;
+    display: flex;
+  }
+  
+.heroImg {
+    height: 600px;
+    padding: 25px;
+  }
+
+.image {
+    display: flex;
+  }
+  
+.content {
+    /* This is code from the assignment */
+    /* width: 500px; */
+    margin: 0 auto;
+    padding: 0px;
+    
+    /* Remove later */
+    background-color: #fa7a7a;
+  }
+  
+.content h2 {
+    color: #efea5a;
+  }
+  
+.content p {
+    font-family: 'Rubik', sans-serif;
+  }
+  
+footer {
+    background-color: #373738;
+    padding: 0 20px;
+  }
+  
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px;
+  }
+  
+footer ul li {
+    color: white;
+  }
+
+/* HW18 code */
+  
+.flexContainer {
+    display: flex;
+  }
+  
+.flexContainer div {
+    width: 33%;
+    background-color: #7a7afa;
+    padding: 24px;
+  }
+  
+.flexContainer div h3 {
+    color: #efea5a;
+    font-weight: bold;
+    font-family: 'Roboto Serif', serif;
+  }
+  
+.flexContainer div p {
+    font-family: 'Rubik', sans-serif;
+    color: #342e37;
+  }
+  
+.project1 {
+    grid-area: project1;
+    margin: 12px 0px;
+    padding: 24px;
+    border: 0.5px solid;
+    background-color: #7afa7a;
+  }
+  
+.project2 {
+    grid-area: project2;
+    margin: 12px 0px;
+    padding: 24px;
+    border: 0.5px solid;
+    background-color: #b8f8b9;
+  }
+  
+.workGrid {
+    display: grid;
+    grid-template-areas: 'project1 project2';
+  }
+  
+  /* Personal code ahead */
+  
+.navigation {
+    display: flex;
+  }
+  
+li.inline-block {
+    padding: 10px 20px;
+    align-content: center;
+  }
+  
+ul li {
+    padding-right: 20px;
+  }
+  
+h1 {
+      font-family: 'Roboto Serif', serif;
+    }
+  
+/* Mobile media query */
+  
+  @media only screen and (max-width: 600){
+    /* CSS styles for grid template area here */
+  }
